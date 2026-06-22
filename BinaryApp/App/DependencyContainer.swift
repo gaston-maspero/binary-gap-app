@@ -1,9 +1,5 @@
 import Foundation
 
-/// Lightweight service locator that owns the lifetime of application-wide
-/// singletons and acts as the entry point for every module builder.
-/// Module builders consume the container to resolve their dependencies,
-/// keeping each module's constructor free of static references.
 final class DependencyContainer {
 
     // MARK: - Domain services
